@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "title": "Full Stack Web Development Bootcamp",
+    "subtitle": "Master frontend and backend development",
+    "description": "A complete bootcamp covering HTML, CSS, JavaScript, React, Node.js, databases, and deployment. Build real-world web applications from scratch.",
+    "difficulty": "INTERMEDIATE",
+    "learningObjectives": [
+      "Build responsive websites with HTML and CSS",
+      "Create interactive web applications with JavaScript",
+      "Develop modern frontends with React",
+      "Build RESTful APIs with Node.js and Express",
+      "Work with databases and authentication"
+    ],
+    "coverImageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
+    "authorId": 1,
+    "topics": [
+      {
+        "id": "t1-fs",
+        "title": "Frontend Fundamentals",
+        "description": "Learn the basics of HTML, CSS, and responsive design",
+        "orderIndex": 1,
+        "subtopics": [
+          {
+            "id": "s1-fs",
+            "title": "HTML Basics",
+            "content": "# HTML Basics\n\nIntroduction to HTML5 tags, semantic markup, and document structure. Learn how to create well-structured web pages and accessible content.\n\n**You will learn:**\n- `<!doctype html>` and page structure\n- Semantic elements like `<header>`, `<main>`, `<nav>`, `<footer>`\n\n```html\n<!doctype html>\n<html>\n  <head>\n    <title>My Page</title>\n  </head>\n  <body>\n    <header>Site header</header>\n  </body>\n</html>\n```",
+            "orderIndex": 1
+          },
+          {
+            "id": "s2-fs",
+            "title": "CSS Styling",
+            "content": "## CSS Styling\n\nMaster CSS selectors, the box model, flexbox, and grid. Create beautiful responsive layouts and learn how to structure CSS files.\n\n**Topics covered:**\n- Selectors & specificity\n- Box model (margin, border, padding)\n- Flexbox basics\n- Grid for two-dimensional layouts",
+            "orderIndex": 2
+          },
+          {
+            "id": "s3-fs",
+            "title": "Responsive Design",
+            "content": "## Responsive Design\n\nLearn mobile-first design, media queries, and accessibility considerations for different screen sizes.\n\n**Example:**\n```css\n@media (min-width: 768px) {\n  .container { max-width: 720px; }\n}\n```",
+            "orderIndex": 3
+          }
+        ]
+      },
+      {
+        "id": "t2-fs",
+        "title": "JavaScript Essentials",
+        "description": "Master JavaScript fundamentals and modern ES6+ features",
+        "orderIndex": 2,
+        "subtopics": [
+          {
+            "id": "s4-fs",
+            "title": "Variables and Data Types",
+            "content": "### Variables and Data Types\n\nUnderstand `let`, `const`, and `var`, primitive types, objects, and type coercion in JavaScript.\n\n```js\nconst name = 'Alice';\nlet age = 25;\n```",
+            "orderIndex": 1
+          },
+          {
+            "id": "s5-fs",
+            "title": "Functions and Scope",
+            "content": "### Functions and Scope\n\nLearn function declarations, arrow functions, closures, and lexical scope.\n\n- Function declaration\n- Function expression\n- Arrow functions\n- Closures (useful for data privacy)",
+            "orderIndex": 2
+          },
+          {
+            "id": "s6-fs",
+            "title": "Async JavaScript",
+            "content": "### Async JavaScript\n\nPromises, `async/await`, and handling asynchronous operations.\n\n```js\nasync function fetchData(){\n  const res = await fetch('/api/data');\n  return res.json();\n}\n```",
+            "orderIndex": 3
+          }
+        ]
+      },
+      {
+        "id": "t3-fs",
+        "title": "React Development",
+        "description": "Build modern web applications with React",
+        "orderIndex": 3,
+        "subtopics": [
+          {
+            "id": "s7-fs",
+            "title": "React Components",
+            "content": "## React Components\n\nFunctional components, JSX, props, and composition.\n\n```jsx\nfunction Greeting({name}){\n  return <h1>Hello, {name}</h1>;\n}\n```",
+            "orderIndex": 1
+          },
+          {
+            "id": "s8-fs",
+            "title": "State Management",
+            "content": "## State Management\n\n`useState`, `useEffect`, and simple state patterns. When to lift state up vs local state.\n\n**Example:**\n```jsx\nconst [count, setCount] = useState(0);\n```",
+            "orderIndex": 2
+          },
+          {
+            "id": "s9-fs",
+            "title": "React Router",
+            "content": "## React Router\n\nClient-side routing and navigation using `react-router-dom`.\n\n- Routes\n- Link\n- useParams\n",
+            "orderIndex": 3
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "title": "Data Science Foundations",
+    "subtitle": "Statistics, Python, and Data Visualization",
+    "description": "Learn the fundamentals of data science: Python programming, statistics, data cleaning, visualization, and a bit of machine learning intuition.",
+    "difficulty": "BEGINNER",
+    "learningObjectives": [
+      "Write Python for data tasks",
+      "Understand basic statistics",
+      "Clean and visualize datasets",
+      "Use pandas and matplotlib/seaborn"
+    ],
+    "coverImageUrl": "https://images.unsplash.com/photo-1535378917041-3e5a67c1a7f7",
+    "authorId": 2,
+    "topics": [
+      {
+        "id": "t1-ds",
+        "title": "Python for Data",
+        "description": "Python basics and data libraries",
+        "orderIndex": 1,
+        "subtopics": [
+          {
+            "id": "s1-ds",
+            "title": "Python Basics",
+            "content": "# Python Basics\n\nVariables, control flow, functions, and working with lists/dicts.\n\n```py\nfor i in range(5):\n  print(i)\n```",
+            "orderIndex": 1
+          },
+          {
+            "id": "s2-ds",
+            "title": "Pandas Intro",
+            "content": "## Pandas Intro\n\nLoad CSVs, inspect dataframes, select/filter rows, handle missing values.",
+            "orderIndex": 2
+          }
+        ]
+      },
+      {
+        "id": "t2-ds",
+        "title": "Statistics & Visualization",
+        "description": "Core statistics and plotting data",
+        "orderIndex": 2,
+        "subtopics": [
+          {
+            "id": "s3-ds",
+            "title": "Descriptive Statistics",
+            "content": "### Descriptive Statistics\n\nMean, median, standard deviation and how to interpret distributions.",
+            "orderIndex": 1
+          },
+          {
+            "id": "s4-ds",
+            "title": "Visualization with Matplotlib",
+            "content": "### Visualization\n\nLine, bar, scatter plots and basic styling with Matplotlib and Seaborn.",
+            "orderIndex": 2
+          }
+        ]
+      }
+    ]
+  }
+]

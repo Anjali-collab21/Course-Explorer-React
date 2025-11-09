@@ -1,0 +1,23 @@
+[
+  {
+    "id": "u1",
+    "name": "Aaradhya Sharma",
+    "email": "aaradhya@test.com",
+    "role": "student",
+    "joinedAt": "2024-09-10"
+  },
+  {
+    "id": "u2",
+    "name": "Rohan Mehta",
+    "email": "rohan@test.com",
+    "role": "alumni",
+    "joinedAt": "2023-06-21"
+  },
+  {
+    "id": "u3",
+    "name": "Priya Patel",
+    "email": "priya@test.com",
+    "role": "admin",
+    "joinedAt": "2022-01-12"
+  }
+]
