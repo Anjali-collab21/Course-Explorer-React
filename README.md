@@ -135,3 +135,8 @@ npm run preview
   by lazy-loading course content instead of rendering everything at once.
 - **UI Enhancements:** Add progress tracking checkboxes for subtopics  
   (to mark topics as completed and show progress visually).
+---
+
+## Deployment Link
+
+### [Live Demo](https://course-explorer-react-zfvo.vercel.app)
